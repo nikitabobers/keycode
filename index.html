@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width" />
+        <title>KeyCode</title>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+            rel="stylesheet"
+        />
+
+        <link
+            rel="stylesheet"
+            href="./style.css"
+            type="text/css"
+            media="screen"
+            title="no title"
+            charset="utf-8"
+        />
+    </head>
+    <body>
+        <div class="container">
+            <div class="result-number">
+                <p class="placeholder shadow">Press any key on keyboard...</p>
+                <h1 class="number"></h1>
+            </div>
+            <div class="result-data-container">
+                <div class="result-data-item shadow">
+                   <p class="result-data-title key-name">event.key</p> 
+				   <p class="result-data-info key"></p>
+                </div>
+                <div class="result-data-item shadow">
+                   <p class="result-data-title key-name">event.location</p> 
+				   <p class="result-data-info location"></p>
+                </div>
+                <div class="result-data-item shadow">
+                   <p class="result-data-title key-name">event.which</p> 
+				   <p class="result-data-info which"></p>
+                </div>
+                <div class="result-data-item shadow">
+                   <p class="result-data-title key-name">event.code</p> 
+				   <p class="result-data-info code"></p>
+                </div>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
